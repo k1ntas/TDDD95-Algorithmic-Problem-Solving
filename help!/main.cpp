@@ -117,7 +117,7 @@ int main() {
         //-------------------------------------------TEST INPUT
         //pattern1 = "how now brown <animal>";
         //pattern2 = "<foo> now <color> cow";
-
+        
         //Test cases
 
         //pattern1 = "a b <a> c <a> d <a> e <a> f";
