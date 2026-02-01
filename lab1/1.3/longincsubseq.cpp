@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+#include <algorithm>
 //Author:   Simha158 Simon Hansson
 
 //Problem:  Longest increasing subsequence (https://liu.kattis.com/courses/AAPS/AAPS26/assignments/wunfda/problems/longincsubseq) 
