@@ -1,7 +1,7 @@
 CXX = g++
 FLAGS = -std=c++17 -Wall -Wextra
 TARGET = out
-SRC = IntrospectiveCaching.cpp
+SRC = main.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(FLAGS) $(SRC) -o $(TARGET)
