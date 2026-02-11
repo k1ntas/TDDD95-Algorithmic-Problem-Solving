@@ -1,7 +1,7 @@
 CXX = g++
 FLAGS = -std=c++17 -Wall -Wextra
 TARGET = out
-SRC = Set_stack.cpp
+SRC = SetStack.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(FLAGS) $(SRC) -o $(TARGET)

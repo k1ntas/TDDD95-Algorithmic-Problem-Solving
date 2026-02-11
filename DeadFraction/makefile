@@ -1,10 +1,8 @@
 CXX = g++
 FLAGS = -std=c++17 -Wall -Wextra
 TARGET = out
-SRC = main.cpp
+SRC = DeadFraction.cpp
 
-$(MAKE): clean
-$(MAKE): $(TARGET)
 $(TARGET): $(SRC)
 	$(CXX) $(FLAGS) $(SRC) -o $(TARGET)
 

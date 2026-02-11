@@ -1,7 +1,7 @@
 CXX = g++
 FLAGS = -std=c++17 -Wall -Wextra
 TARGET = out
-SRC = main.cpp
+SRC = NthPower.cpp
 
 $(MAKE): clean
 $(MAKE): $(TARGET)
@@ -14,3 +14,5 @@ ifeq ($(OS),Windows_NT)
 else
 	rm -f $(TARGET)
 endif
+
+
